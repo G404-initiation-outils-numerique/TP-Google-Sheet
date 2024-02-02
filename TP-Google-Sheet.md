@@ -64,15 +64,21 @@ Ouvre Google Sheets et crée une nouvelle feuille en choisissant "+ Feuille de c
 
 Renomme le titre de la feuille en "Budget Personnel" en cliquant sur le titre "Sans titre" en haut.
 
-Nomme les colonnes : Dans A1 tape "Date", en B1 "Description", en C1 "Catégorie", en D1 "Montant", et en E1 "Type" (Revenu/Dépense).
+Nomme les colonnes : Dans A1 tape "Date", en B1 "Description", en C1 "Catégorie", en D1 "Montant", et en E1 "Type".
 
 Pour cela, sélectionne chaque cellule de la première ligne et entre les noms des colonnes. Utilise les options de mise en forme pour centrer le texte et changer la couleur de fond pour distinguer l'en-tête.
 
 ### Étape 2 : Saisie des données
 
-Saisis des opérations courantes en utilisant une ligne par opération. Exemple : pour l'achat d'un livre, remplis les colonnes avec la date, la description "Achat livre", la catégorie "Loisirs", le montant, et sélectionne "Dépense" dans le type.
+Saisis des opérations courantes en utilisant une ligne par opération. Exemple : pour l'achat d'un livre, remplis les colonnes avec la date, la description "Achat livre", la catégorie "Loisirs", le montan.
 
-Crée une liste déroulante pour la colonne "Type". Sélectionne la colonne E, va dans Données -> Validation des données, sélectionne "Liste d'éléments" et entre "Revenu,Dépense".
+Pour la colonne "Type", nous allons utiliser une liste déroulante pour différencier les revenus et les dépenses.
+Cliques sur la colonne E, va dans Données -> Validation des données, clique sur "Ajouter une règle" et entre dans les options"Revenu" et "Dépense".
+![alt text](image-3.png)
+
+Pour que la liste déroulante soit appliquée à toutes les cellules de la colonne E, sélectionne la cellule E2, puis clique sur le coin en bas à droite de la cellule pour étendre la liste déroulante à toutes les cellules de la colonne.
+
+![alt text](image-4.png)
 
 ### Étape 3 : Mise en forme conditionnelle
 
